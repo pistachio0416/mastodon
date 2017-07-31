@@ -62,6 +62,9 @@ gem 'react-rails'
 gem 'browserify-rails'
 gem 'autoprefixer-rails'
 
+gem 'danger'
+gem 'danger-pickup_reviewers', path: '/Users/sou/rails_projects/2.4.1/danger-pickup_reviewers'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'pry-rails'
